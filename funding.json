@@ -1,0 +1,67 @@
+{
+  "name": "WhisperLens",
+  "tagline": "Voice to Insight AI Toolkit for Low-Resource Languages",
+  "website": "https://github.com/cube18/whisperlens",
+  "repository": "https://github.com/cube18/whisperlens",
+  "license": "MIT",
+  "version": "0.1.0",
+  "description": "WhisperLens is an open-source AI-powered toolkit that transcribes, analyzes, and extracts insights from spoken language — designed for low-resource languages and underserved regions. Built using OpenAI Whisper and lightweight language models, it enables developers and communities to create local voice-driven apps for education, healthcare, and accessibility.",
+  "motivation": "Billions of people speak languages that are not well-supported by mainstream AI tools. WhisperLens aims to democratize speech tech by focusing on inclusivity, privacy, and ease of use for grassroots developers and organizations.",
+  "funding": [
+    {
+      "type": "grant",
+      "amount": {
+        "currency": "USD",
+        "value": 25000
+      },
+      "use": [
+        "Fine-tuning Whisper models for Kannada, Telugu, Tamil, and other low-resource languages",
+        "Curating and cleaning multilingual speech and sentiment datasets",
+        "Developing a privacy-first local inference engine using Hugging Face Transformers",
+        "Building a lightweight web dashboard for transcriptions and insights",
+        "Community outreach and multilingual documentation"
+      ],
+      "description": "Seed funding to develop and deploy MVP with 3 languages and a basic UI. Goal is to validate use cases in NGOs and schools in India."
+    },
+    {
+      "type": "sponsorship",
+      "amount": {
+        "currency": "USD",
+        "value": 5000
+      },
+      "use": [
+        "Model hosting and API compute credits (e.g., HuggingFace, Replicate, Azure)",
+        "Cloud GPU training via AWS, GCP, or Paperspace"
+      ],
+      "description": "Optional support for infrastructure and ongoing maintenance."
+    }
+  ],
+  "team": [
+    {
+      "name": "Charan Nagaraj",
+      "email": "ncharan018@gmail.com",
+      "role": "Founder, Data Engineer, AI Enthusiast",
+      "github": "https://github.com/cube18",
+      "twitter": "https://twitter.com/DataBrother_AI"
+    }
+  ],
+  "goals": [
+    "Enable offline speech-to-text transcription in Indian languages",
+    "Allow NGOs and educators to build speech-based applications without coding",
+    "Create an inclusive open-source AI community around speech and voice tech"
+  ],
+  "impact": {
+    "regions": ["India", "South Asia", "Global South"],
+    "audiences": ["Educators", "Nonprofits", "Developers", "Accessibility Advocates"],
+    "sdgs": [
+      "4: Quality Education",
+      "9: Industry, Innovation and Infrastructure",
+      "10: Reduced Inequalities"
+    ]
+  },
+  "contact": {
+    "email": "ncharan018@gmail.com",
+    "twitter": "@DataBrother_AI",
+    "github": "https://github.com/cube18/whisperlens"
+  }
+}
